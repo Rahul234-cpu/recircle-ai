@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Television">
+<rect width="800" height="600" fill="#F1F5F9"/>
+<ellipse cx="400" cy="520" rx="260" ry="26" fill="#000" opacity="0.07"/>
+<rect x="140" y="130" width="520" height="310" rx="16" fill="#1F2937"/><rect x="160" y="150" width="480" height="270" rx="6" fill="#0EA5E9"/><path d="M160 360l120-110 90 80 70-50 200 140H160z" fill="#15803D"/><circle cx="560" cy="210" r="28" fill="#FACC15"/><rect x="370" y="440" width="60" height="40" fill="#374151"/><rect x="290" y="480" width="220" height="16" rx="8" fill="#374151"/>
+</svg>

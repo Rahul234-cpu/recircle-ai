@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bicycle">
+<rect width="800" height="600" fill="#E0F2FE"/>
+<ellipse cx="400" cy="520" rx="260" ry="26" fill="#000" opacity="0.07"/>
+<circle cx="250" cy="390" r="100" fill="none" stroke="#1F2937" stroke-width="16"/><circle cx="550" cy="390" r="100" fill="none" stroke="#1F2937" stroke-width="16"/><path d="M250 390l110-170h160l30 170M360 220l70 170 120-170M430 390l-180 0" fill="none" stroke="#15803D" stroke-width="16" stroke-linejoin="round"/><path d="M330 200h70M500 220l20-60h50" stroke="#1F2937" stroke-width="16" stroke-linecap="round" fill="none"/><circle cx="430" cy="390" r="18" fill="#FACC15"/>
+</svg>

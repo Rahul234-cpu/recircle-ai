@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Books">
+<rect width="800" height="600" fill="#FFF7ED"/>
+<ellipse cx="400" cy="520" rx="260" ry="26" fill="#000" opacity="0.07"/>
+<rect x="220" y="380" width="360" height="56" rx="6" fill="#15803D"/><rect x="240" y="324" width="330" height="56" rx="6" fill="#0EA5E9"/><rect x="210" y="268" width="350" height="56" rx="6" fill="#FACC15"/><rect x="250" y="212" width="300" height="56" rx="6" fill="#EF4444"/><rect x="230" y="436" width="380" height="56" rx="6" fill="#8B5CF6"/><g fill="#FFFFFF" opacity=".7"><rect x="270" y="232" width="120" height="10" rx="5"/><rect x="240" y="288" width="140" height="10" rx="5"/><rect x="270" y="344" width="110" height="10" rx="5"/><rect x="250" y="400" width="130" height="10" rx="5"/><rect x="260" y="456" width="150" height="10" rx="5"/></g>
+</svg>
