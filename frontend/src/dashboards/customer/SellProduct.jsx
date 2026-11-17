@@ -183,7 +183,7 @@ export default function SellProduct() {
                     <button key={k} type="button" onClick={() => setDecision(k)} className={`rounded-xl border px-3 py-2 text-sm font-medium ${decision === k ? 'border-brand-600 bg-brand-50 text-brand-800' : 'border-gray-200'}`}>{m.label}</button>
                   ))}
                 </div>
-                {decision === 'recycle' && <Link to="/customer/book-collection" className="btn-accent mt-3 w-full"><Recycle className="h-4 w-4" /> Book a kabadiwala instead</Link>}
+                {decision === 'recycle' && <Link to="/customer/book-collection" className="btn-accent mt-3 w-full"><Recycle className="h-4 w-4" /> Book an EcoPartner instead</Link>}
                 {decision === 'donate' && <p className="mt-3 rounded-lg bg-violet-50 p-2.5 text-xs text-violet-800">Consider giving it to a local NGO, or list it at a token price and mention it's for someone in need.</p>}
                 {decision === 'repair' && <p className="mt-3 rounded-lg bg-sky-50 p-2.5 text-xs text-sky-800">A quick repair can raise the resale price. Mention the fault clearly if you list it as-is.</p>}
               </div>

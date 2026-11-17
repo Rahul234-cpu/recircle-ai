@@ -16,7 +16,7 @@ export default function WasteCollection() {
           <div className="lg:col-span-2">
             <p className="eyebrow">Waste collection</p>
             <h1 className="mt-2 text-4xl font-extrabold sm:text-5xl">Doorstep pickup at transparent rates</h1>
-            <p className="mt-4 max-w-2xl text-lg text-gray-600">Verified kabadiwalas weigh your recyclables in front of you and pay on the spot. Here's what we accept and today's indicative rates.</p>
+            <p className="mt-4 max-w-2xl text-lg text-gray-600">Verified EcoPartners weigh your recyclables in front of you and pay on the spot. Here's what we accept and today's indicative rates.</p>
           </div>
           <div className="flex gap-3 lg:justify-end">
             <Link to="/customer/sell-waste" className="btn-primary px-5 py-3"><Recycle className="h-5 w-5" /> Sell waste</Link>

@@ -46,7 +46,7 @@ export const ACTION_META = {
   reuse: { label: 'Reuse', tone: 'bg-brand-50 text-brand-800 ring-brand-200', cta: 'List it on the marketplace' },
   repair: { label: 'Repair', tone: 'bg-sky-50 text-sky-800 ring-sky-200', cta: 'Repair first, then list it' },
   donate: { label: 'Donate', tone: 'bg-violet-50 text-violet-800 ring-violet-200', cta: 'Donate to someone who needs it' },
-  recycle: { label: 'Recycle', tone: 'bg-amber-50 text-amber-800 ring-amber-200', cta: 'Book a kabadiwala pickup' },
+  recycle: { label: 'Recycle', tone: 'bg-amber-50 text-amber-800 ring-amber-200', cta: 'Book an EcoPartner pickup' },
 };
 
 export const ROLE_HOME = { customer: '/customer', collector: '/collector', buyer: '/buyer', admin: '/admin' };

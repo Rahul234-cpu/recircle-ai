@@ -144,7 +144,7 @@ def recommend(
     confidence = round(min(0.95, max(0.35, 0.5 * (max(best_score, 0) / total_pos) + 0.5 * min(1.0, (best_score - second) / 2 + 0.3))), 2)
 
     top_reasons = [f["reason"] for f in factors if f["action"] == best][:3]
-    pretty = {"reuse": "List it on the second-hand marketplace", "repair": "Repair it before resale", "donate": "Donate it", "recycle": "Book a kabadiwala for recycling"}
+    pretty = {"reuse": "List it on the second-hand marketplace", "repair": "Repair it before resale", "donate": "Donate it", "recycle": "Book an EcoPartner for recycling"}
     reason = f"{pretty[best]}: " + "; ".join(top_reasons) + "." if top_reasons else pretty[best] + "."
 
     provider = "rules"

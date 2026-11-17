@@ -60,7 +60,7 @@ def answer(message: str, history: list[dict] | None = None, user_role: str = "gu
     words = set(message.lower().split())
     if words and words <= GREETINGS | {"there", "!"}:
         return {
-            "answer": "Namaste! 👋 I'm the ReCircle assistant. Ask me about selling waste, booking a kabadiwala, listing a used product, buying, eco-points or your account.",
+            "answer": "Namaste! 👋 I'm the ReCircle assistant. Ask me about selling waste, booking an EcoPartner, listing a used product, buying, eco-points or your account.",
             "sources": [], "suggestions": ["How do I sell my waste?", "How is the waste price calculated?", "How do I sell a used product?"],
             "provider": "retrieval", "confidence": 1.0,
         }
@@ -75,7 +75,7 @@ def answer(message: str, history: list[dict] | None = None, user_role: str = "gu
     if not hits or hits[0][0] < THRESHOLD:
         return {
             "answer": "I'm not sure about that one. I can help with waste pickups, rates, selling or buying used products, eco-points and account questions. For anything else, please use Contact Us and our team will help.",
-            "sources": [], "suggestions": ["Which waste do you accept?", "How do I become a kabadiwala on ReCircle?", "How do I contact a seller safely?"],
+            "sources": [], "suggestions": ["Which waste do you accept?", "How do I become an EcoPartner on ReCircle?", "How do I contact a seller safely?"],
             "provider": "retrieval", "confidence": hits[0][0] if hits else 0.0,
         }
 

@@ -11,7 +11,7 @@ import { ROLE_HOME } from '../utils/constants';
 
 const DEMO = [
   ['Customer', 'priya@demo.recircle.ai', 'Demo@1234'],
-  ['Kabadiwala', 'ramesh@demo.recircle.ai', 'Demo@1234'],
+  ['EcoPartner', 'ramesh@demo.recircle.ai', 'Demo@1234'],
   ['Buyer', 'arjun@demo.recircle.ai', 'Demo@1234'],
   ['Admin', 'admin@recircle.ai', 'Admin@1234'],
 ];
@@ -81,7 +81,7 @@ export function Login() {
         <Field label="Password" error={errors.password?.message}><PasswordInput autoComplete="current-password" error={errors.password} register={register('password', { required: 'Password is required' })} /></Field>
         <button type="submit" className="btn-primary w-full py-3" disabled={isSubmitting}>{isSubmitting && <Spinner className="h-4 w-4 text-white" />}Log in</button>
       </form>
-      <p className="mt-6 text-center text-sm text-gray-500">New here? <Link to="/register" className="font-semibold text-brand-700">Create an account</Link> · <Link to="/become-kabadiwala" className="font-semibold text-brand-700">Join as a kabadiwala</Link></p>
+      <p className="mt-6 text-center text-sm text-gray-500">New here? <Link to="/register" className="font-semibold text-brand-700">Create an account</Link> · <Link to="/become-ecopartner" className="font-semibold text-brand-700">Join as an EcoPartner</Link></p>
 
       {import.meta.env.DEV && (
         <div className="mt-8 rounded-xl border border-dashed border-amber-300 bg-amber-50 p-4">
@@ -126,7 +126,7 @@ export function Register() {
       subtitle="Join ReCircle AI in under a minute."
       aside={(
         <div className="max-w-md space-y-6">
-          {[['Doorstep pickups', 'Book verified kabadiwalas at a time that suits you.'], ['Fair, transparent rates', 'See per-kg rates upfront and confirm the final weight.'], ['A trusted marketplace', 'Buy and sell pre-loved items with privacy-safe chat.']].map(([t, d]) => (
+          {[['Doorstep pickups', 'Book verified EcoPartners at a time that suits you.'], ['Fair, transparent rates', 'See per-kg rates upfront and confirm the final weight.'], ['A trusted marketplace', 'Buy and sell pre-loved items with privacy-safe chat.']].map(([t, d]) => (
             <div key={t}><p className="text-lg font-semibold text-white">✓ {t}</p><p className="text-brand-50">{d}</p></div>
           ))}
         </div>

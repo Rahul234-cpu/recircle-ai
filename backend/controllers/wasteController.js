@@ -7,7 +7,7 @@ const pricing = require('../services/pricingService');
 const bookings = require('../services/bookingService');
 
 const NEXT_ACTION = {
-  paper: 'Keep it dry and bundle it. Book a kabadiwala pickup.',
+  paper: 'Keep it dry and bundle it. Book an EcoPartner pickup.',
   cardboard: 'Flatten boxes to save space, keep dry, and book a pickup.',
   plastic: 'Rinse and dry containers, remove food residue, then book a pickup.',
   metal: 'Separate iron/steel from aluminium if you can, then book a pickup.',

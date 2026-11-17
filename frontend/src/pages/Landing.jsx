@@ -13,7 +13,7 @@ import { iconFor } from '../utils/icons';
 const STEPS = [
   [Camera, 'Snap a photo', 'Upload a picture of your waste or a product you no longer need.'],
   [ScanSearch, 'AI identifies it', 'We suggest the material or category, a price estimate and whether to reuse, repair, donate or recycle.'],
-  [CalendarCheck, 'Book or list', 'Schedule a doorstep pickup with a verified kabadiwala, or publish a marketplace listing.'],
+  [CalendarCheck, 'Book or list', 'Schedule a doorstep pickup with a verified EcoPartner, or publish a marketplace listing.'],
   [HandCoins, 'Get paid', 'Collector weighs it in front of you and pays on the spot. You get a digital receipt and eco-points.'],
 ];
 
@@ -21,12 +21,12 @@ const AI_FEATURES = [
   [ScanSearch, 'Waste image classification', 'Identifies paper, cardboard, plastic, metal, glass, e-waste or textiles with a confidence score.'],
   [Sparkles, 'Reuse vs Recycle engine', 'Explains whether an item should be reused, repaired, donated or recycled — you make the final call.'],
   [Tag, 'Smart price suggestions', 'Scrap estimates from live admin rates, and price ranges for used products based on age, condition and real sales.'],
-  [Truck, 'Kabadiwala matching', 'Ranks nearby verified collectors by distance, availability, capacity and rating.'],
+  [Truck, 'EcoPartner matching', 'Ranks nearby verified collectors by distance, availability, capacity and rating.'],
 ];
 
 const TESTIMONIALS = [
   ['Priya S.', 'Indiranagar', 'The collector weighed everything in front of me and paid via UPI. Way better than waiting for the raddiwala to show up.'],
-  ['Ramesh K.', 'Kabadiwala, Domlur', 'I get requests from my own area with the materials listed upfront. My route planning is much easier now.'],
+  ['Ramesh K.', 'EcoPartner, Domlur', 'I get requests from my own area with the materials listed upfront. My route planning is much easier now.'],
   ['Meera N.', 'BTM Layout', 'Bought a barely used air fryer for less than half the price. The chat kept my number private until the seller accepted.'],
 ];
 
@@ -44,7 +44,7 @@ export default function Landing() {
           <div>
             <span className="badge bg-white text-brand-800 ring-1 ring-brand-200"><Sparkles className="h-3.5 w-3.5" /> AI-powered circular marketplace</span>
             <h1 className="mt-5 text-4xl font-extrabold leading-[1.1] sm:text-5xl lg:text-6xl">Turn Your Waste <span className="text-brand-700">Into Worth.</span></h1>
-            <p className="mt-5 max-w-xl text-lg text-gray-600">Sell recyclable waste, book trusted kabadiwalas, and give pre-loved products a new home.</p>
+            <p className="mt-5 max-w-xl text-lg text-gray-600">Sell recyclable waste, book trusted EcoPartners, and give pre-loved products a new home.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link to="/customer/sell-waste" className="btn-primary px-6 py-3 text-base"><Recycle className="h-5 w-5" /> Sell Waste</Link>
               <Link to="/products" className="btn-secondary px-6 py-3 text-base"><Store className="h-5 w-5" /> Explore Second-Hand Products</Link>
@@ -171,15 +171,15 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Become a kabadiwala */}
+      {/* Become an EcoPartner */}
       <section className="pb-16 sm:pb-24">
         <div className="container-page">
           <div className="grid items-center gap-8 overflow-hidden rounded-3xl bg-brand-700 p-8 text-white sm:p-12 lg:grid-cols-3">
             <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-white">Are you a kabadiwala? Grow with ReCircle.</h2>
+              <h2 className="text-3xl font-bold text-white">Are you a scrap collector? Become a ReCircle EcoPartner.</h2>
               <p className="mt-3 max-w-2xl text-brand-50">Get pickup requests from your own service area, see materials and estimated weights upfront, issue digital receipts and build a reputation with verified reviews.</p>
             </div>
-            <div className="flex lg:justify-end"><Link to="/become-kabadiwala" className="btn-accent px-6 py-3 text-base">Register as a collector <ArrowRight className="h-5 w-5" /></Link></div>
+            <div className="flex lg:justify-end"><Link to="/become-ecopartner" className="btn-accent px-6 py-3 text-base">Register as a collector <ArrowRight className="h-5 w-5" /></Link></div>
           </div>
         </div>
       </section>

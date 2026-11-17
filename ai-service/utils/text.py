@@ -8,7 +8,7 @@ STOPWORDS = {
 }
 
 SYNONYMS = {
-    "kabadiwala": "collector", "kabadi": "collector", "scrap": "waste", "raddi": "paper", "pickup": "collection",
+    "kabadiwala": "collector", "ecopartner": "collector", "ecopartners": "collector", "kabadi": "collector", "scrap": "waste", "raddi": "paper", "pickup": "collection",
     "pick": "collection", "book": "booking", "booked": "booking", "sell": "sell", "selling": "sell", "sold": "sell",
     "price": "rate", "prices": "rate", "rates": "rate", "cost": "rate", "money": "payment", "pay": "payment",
     "paid": "payment", "points": "reward", "rewards": "reward", "eco": "reward", "listing": "listing",

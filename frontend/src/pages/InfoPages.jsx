@@ -25,7 +25,7 @@ export function About() {
   const im = data?.impact;
   return (
     <>
-      <Hero eyebrow="About us" title="We make the circular economy work at your doorstep" text="India's informal kabadiwala network already recycles a huge share of household waste. ReCircle AI gives it modern tools — and gives usable products a second life before they ever become waste." />
+      <Hero eyebrow="About us" title="We make the circular economy work at your doorstep" text="India's informal scrap-collector network already recycles a huge share of household waste. ReCircle AI gives it modern tools — and gives usable products a second life before they ever become waste." />
       <section className="section pt-4">
         <div className="container-page grid gap-10 lg:grid-cols-2">
           <div className="space-y-4 text-gray-600">

@@ -5,7 +5,7 @@ export const FAQ_ITEMS = [
   ['Do collectors see my address and phone number?', 'Not until they accept. Before acceptance they only see your locality, materials, estimated weight and an approximate distance.'],
   ['How do I list a used product?', 'Go to Sell Used Products, add photos and details, and use the AI to get a reuse/repair/donate/recycle suggestion, a price range and a draft description. Edit anything, then publish.'],
   ['When is a marketplace order complete?', 'Only after the seller accepts your request and confirms the handover. A purchase request alone never completes an order.'],
-  ['How do I become a kabadiwala on ReCircle?', 'Use Become a Kabadiwala to register with your business details, ID proof, service area and working hours. An admin verifies your details before you receive requests.'],
+  ['How do I become an EcoPartner on ReCircle?', 'Use Become an EcoPartner to register with your business details, ID proof, service area and working hours. An admin verifies your details before you receive requests.'],
   ['What are eco-reward points?', 'Points earned for verified activity: per kg of recyclables collected and for each product sold or bought second-hand.'],
   ['Which waste is not accepted?', 'Wet/food waste, medical waste, chemicals, paint and other hazardous materials are not collected.'],
   ['Is the AI always right?', 'No. Every AI result shows a confidence score and you can change the category, price or recommendation. Without vision API credentials the classifier runs in a clearly labelled demo mode.'],

@@ -77,7 +77,7 @@ export default function BecomeKabadiwala() {
     <>
       <section className="bg-gradient-to-b from-brand-50/70 to-canvas">
         <div className="container-page py-14 sm:py-16">
-          <p className="eyebrow">Become a kabadiwala</p>
+          <p className="eyebrow">Become an EcoPartner</p>
           <h1 className="mt-2 max-w-3xl text-4xl font-extrabold sm:text-5xl">More pickups from your own neighbourhood</h1>
           <div className="mt-8 grid gap-4 sm:grid-cols-4">
             {[[MapPinned, 'Nearby requests only', 'Matched by your service radius'], [Truck, 'Materials upfront', 'Know what to bring before you go'], [IndianRupee, 'Earnings dashboard', 'Track kg, payouts and margins'], [Star, 'Build reputation', 'Verified reviews after each pickup']].map(([Icon, t, d]) => (
@@ -93,7 +93,7 @@ export default function BecomeKabadiwala() {
             <div className="card card-pad text-center">
               <BadgeCheck className="mx-auto h-8 w-8 text-brand-700" />
               <p className="mt-3 font-semibold">You're logged in as {user.name} ({user.role}).</p>
-              <p className="mt-1 text-sm text-gray-500">Collector accounts are separate. Log out first to register a kabadiwala account.</p>
+              <p className="mt-1 text-sm text-gray-500">Collector accounts are separate. Log out first to register an EcoPartner account.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-5" noValidate>
@@ -108,7 +108,7 @@ export default function BecomeKabadiwala() {
 
               <Section n={2} title="Business & verification">
                 <div className="grid gap-4 sm:grid-cols-2">
-                  <Field label="Business name" required error={errors.businessName?.message}><input className="input" placeholder="e.g. Ramesh Kabadi Services" {...register('businessName', { required: 'Required' })} /></Field>
+                  <Field label="Business name" required error={errors.businessName?.message}><input className="input" placeholder="e.g. Ramesh Recycling Services" {...register('businessName', { required: 'Required' })} /></Field>
                   <Field label="Vehicle"><select className="input" {...register('vehicleType')}><option value="cycle-cart">Cycle cart</option><option value="two-wheeler">Two-wheeler</option><option value="auto">Auto / tempo</option><option value="mini-truck">Mini-truck</option><option value="other">Other</option></select></Field>
                   <Field label="ID proof type"><select className="input" {...register('idProofType')}><option value="aadhaar">Aadhaar</option><option value="pan">PAN</option><option value="voter-id">Voter ID</option><option value="driving-licence">Driving licence</option><option value="other">Other</option></select></Field>
                   <Field label="ID number" required hint="Only the last 4 characters are stored" error={errors.idProofNumber?.message}><input className="input" {...register('idProofNumber', { required: 'Required', minLength: { value: 4, message: 'Too short' }, pattern: { value: /^[A-Za-z0-9 ]+$/, message: 'Letters and digits only' } })} /></Field>

@@ -59,7 +59,8 @@ export default function App() {
         <Route path="marketplace" element={<Marketplace />} />
         <Route path="products" element={<BrowseProducts />} />
         <Route path="products/:id" element={<ProductDetails />} />
-        <Route path="become-kabadiwala" element={<BecomeKabadiwala />} />
+        <Route path="become-ecopartner" element={<BecomeKabadiwala />} />
+        <Route path="become-kabadiwala" element={<Navigate to="/become-ecopartner" replace />} />
         <Route path="contact" element={<Contact />} />
         <Route path="faq" element={<FAQ />} />
         <Route path="login" element={<Login />} />

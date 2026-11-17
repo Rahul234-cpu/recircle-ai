@@ -10,7 +10,7 @@ const LINKS = [
   ['How It Works', '/how-it-works'],
   ['Waste Collection', '/waste-collection'],
   ['Marketplace', '/marketplace'],
-  ['Become a Kabadiwala', '/become-kabadiwala'],
+  ['Become an EcoPartner', '/become-ecopartner'],
   ['About', '/about'],
 ];
 
@@ -65,7 +65,7 @@ function Navbar() {
 function Footer() {
   const cols = [
     ['Platform', [['Sell Waste', '/waste-collection'], ['Browse Products', '/products'], ['Second-Hand Marketplace', '/marketplace'], ['How It Works', '/how-it-works']]],
-    ['Partners', [['Become a Kabadiwala', '/become-kabadiwala'], ['Collector Login', '/login']]],
+    ['Partners', [['Become an EcoPartner', '/become-ecopartner'], ['Collector Login', '/login']]],
     ['Company', [['About Us', '/about'], ['Contact', '/contact'], ['FAQ', '/faq']]],
   ];
   return (
@@ -73,7 +73,7 @@ function Footer() {
       <div className="container-page grid gap-10 py-14 md:grid-cols-5">
         <div className="md:col-span-2">
           <Logo />
-          <p className="mt-4 max-w-sm text-sm text-gray-500">Give Waste a Value. Give Products a Second Life. ReCircle AI connects households with verified kabadiwalas and a trusted second-hand marketplace.</p>
+          <p className="mt-4 max-w-sm text-sm text-gray-500">Give Waste a Value. Give Products a Second Life. ReCircle AI connects households with verified EcoPartners and a trusted second-hand marketplace.</p>
         </div>
         {cols.map(([title, links]) => (
           <div key={title}>
